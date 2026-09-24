@@ -19,7 +19,7 @@ app.use("/api/v1/users", userRoutes);
 
 
 app.get("/home", (req, res) => {
-  return res.json({ message: "Hello World hiiii" });
+  return res.json({ message: "is it working?" });
 });
 
 const start = async () => {
