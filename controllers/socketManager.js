@@ -90,6 +90,7 @@ export const connectToSocket = (server) => {
             const index = connections[key].indexOf(socket.id);
 
             connections[key].splice(index, 1);
+   
 
             if (connections[key].length === 0) {
               delete connections[key];
